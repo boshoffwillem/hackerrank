@@ -16,7 +16,7 @@ jobs:
     #- name: configure
       #run: ./configure
     - name: details
-      run: pwd && ls
+      run: pwd && ls && make --version
     - name: make
       run: make
     #- name: make check
